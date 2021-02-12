@@ -1,0 +1,7 @@
+#Thu Feb 11 17:33:44 CET 2021
+BLOOM_AMOUNT=0.8
+EXPOSURE=0.8
+MICRO_BLOOM=false
+MOTION_BLUR=false
+shadowDistance=80.0
+shadowMapResolution=1024
