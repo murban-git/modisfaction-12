@@ -226,10 +226,10 @@ recipes.remove(<alchemistry:fission_controller>);
 
 #Compound
 #AddMethanol CH3(OH)
-mods.alchemistry.Util.createCompound(1000, "methanol", 100, 90, 120,[["<alchemistry:element:6>", 1],["<alchemistry:element:6>", 3],["<alchemistry:element:1>", 1]]);
+mods.alchemistry.Util.createCompound(1000, "methanol", 100, 90, 120,[["carbon", 1],["hydrogen", 3],["hydroxide", 1]]);
 
 #Electrolyser
-mods.alchemistry.Electrolyzer.addRecipe(<liquid:water>*125,<alchemistry:compound:13>,10,<alchemistry:element:1>*2,<alchemistry:element:8>*2,null,1,1,null);
+mods.alchemistry.Electrolyzer.addRecipe(<liquid:water>*125,<alchemistry:compound:13>,10,<alchemistry:element:1>*2,<alchemistry:element:8>,null,0,null,0);
 
 #Liquifier
 mods.alchemistry.Liquifier.addRecipe(<liquid:bio.ethanol>*125,<alchemistry:compound:26>*2);
