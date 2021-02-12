@@ -1,0 +1,178 @@
+##### Remove #####
+
+mods.extratrees.FruitPress.remove(<minecraft:apple>);
+#mods.extratrees.FruitPress.remove(<extratrees:food>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:apricotitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:10>);
+
+#mods.extratrees.FruitPress.remove(<extratrees:food:28>);
+mods.extratrees.FruitPress.remove(<harvestcraft:bananaitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:28>);
+
+#mods.extratrees.FruitPress.remove(<extratrees:food:4>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:5>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:6>);
+mods.extratrees.FruitPress.remove(<forestry:fruits>);
+mods.extratrees.FruitPress.remove(<harvestcraft:cherryitem>);
+
+#mods.extratrees.FruitPress.remove(<extratrees:food:34>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:lemonitem>);
+mods.extratrees.FruitPress.remove(<forestry:fruits:3>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:limeitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:17>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:16>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:3>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:orangeitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:13>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:21>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:1>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:18>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:peachitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:19>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:12>);
+
+#mods.extratrees.FruitPress.remove(<extratrees:food:8>);
+mods.extratrees.FruitPress.remove(<forestry:fruits:4>);
+mods.extratrees.FruitPress.remove(<harvestcraft:plumitem>);
+
+mods.extratrees.FruitPress.remove(<minecraft:carrot>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:tomatoitem>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:cranberryitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:46>);
+
+#mods.extratrees.FruitPress.remove(<extratrees:food:11>);
+mods.extratrees.FruitPress.remove(<harvestcraft:grapefruititem>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:pineappleitem>);
+
+mods.extratrees.FruitPress.remove(<harvestcraft:pearitem>);
+#mods.extratrees.FruitPress.remove(<extratrees:food:22>);
+
+#Rustic
+mods.rustic.CrushingTub.removeRecipe(<liquid:grapejuice>);
+mods.rustic.CrushingTub.removeRecipe(<liquid:applejuice>);
+
+##### Add #####
+
+mods.extratrees.FruitPress.addRecipe(<minecraft:apple>,<liquid:applejuice> *100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food>,<liquid:applejuice> *100);
+mods.extratrees.FruitPress.addRecipe(<rustic:grapes>,<liquid:grapejuice> *100);
+
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:apricotitem>,<liquid:binnie.juice.apricot> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:10>,<liquid:binnie.juice.apricot> * 100);
+
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:28>, <liquid:binnie.juice.banana> * 100);
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:bananaitem>, <liquid:binnie.juice.banana> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:28>, <liquid:binnie.juice.banana> * 100);
+
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:4>, <liquid:binnie.juice.cherry> * 50);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:5>, <liquid:binnie.juice.cherry> * 50);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:6>, <liquid:binnie.juice.cherry> * 50);
+mods.extratrees.FruitPress.addRecipe(<forestry:fruits>, <liquid:binnie.juice.cherry> * 50);
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:cherryitem>, <liquid:binnie.juice.cherry> * 50);
+
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:34>, <liquid:binnie.juice.elderberry> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:lemonitem>, <liquid:binnie.juice.lemon> * 100);
+mods.extratrees.FruitPress.addRecipe(<forestry:fruits:3>, <liquid:binnie.juice.lemon> * 100);
+mods.extratrees.FruitPress.addRecipe(<forestry:fruits:16>, <liquid:binnie.juice.lemon> * 100);
+mods.extratrees.FruitPress.addRecipe(<forestry:fruits:17>, <liquid:binnie.juice.lemon> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:orangeitem>, <liquid:binnie.juice.orange> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:13>, <liquid:binnie.juice.orange> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:21>, <liquid:binnie.juice.orange> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:1>, <liquid:binnie.juice.orange> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:18>, <liquid:binnie.juice.orange> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:peachitem>, <liquid:binnie.juice.peach> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:19>, <liquid:binnie.juice.peach> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:12>, <liquid:binnie.juice.peach> * 100);
+
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:8>, <liquid:binnie.juice.plum> * 100);
+mods.extratrees.FruitPress.addRecipe(<forestry:fruits:4>, <liquid:binnie.juice.plum> * 100);
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:plumitem>, <liquid:binnie.juice.plum> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<minecraft:carrot>, <liquid:binnie.juice.plum> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:tomatoitem>, <liquid:binnie.juice.tomato> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:cranberryitem>, <liquid:binnie.juice.cranberry> *50);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:46>, <liquid:binnie.juice.cranberry> *50);
+
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:11>, <liquid:binnie.juice.grapefruit> * 100);
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:grapefruititem>, <liquid:binnie.juice.grapefruit> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:pineappleitem>, <liquid:binnie.juice.pineapple> * 100);
+
+mods.extratrees.FruitPress.addRecipe(<harvestcraft:pearitem>, <liquid:binnie.juice.plum> * 100);
+#mods.extratrees.FruitPress.addRecipe(<extratrees:food:22>, <liquid:binnie.juice.plum> * 100);
+
+mods.extratrees.Distillery.addRecipe(<liquid:cider>*1000,<liquid:binnie.brandy.apple>*800, 0);
+mods.extratrees.Distillery.addRecipe(<liquid:cider>*1000,<liquid:binnie.brandy.apple>*400, 1);
+mods.extratrees.Distillery.addRecipe(<liquid:wine>*1000,<liquid:binnie.brandy.grape>*800, 0);
+mods.extratrees.Distillery.addRecipe(<liquid:wine>*1000,<liquid:binnie.brandy.grape>*400, 1);
+
+#Rustic
+mods.rustic.CrushingTub.addRecipe(<liquid:grapejuice> * 100, null ,<rustic:grapes>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:applejuice> * 100, <rustic:apple_seeds> ,<minecraft:apple>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:applejuice> * 100, null ,<extratrees:food>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.apricot> * 100, null ,<harvestcraft:apricotitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.apricot> * 100, null ,<extratrees:food:10>);
+
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.banana> * 100, null ,<extratrees:food:28>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.banana> * 100, null ,<harvestcraft:bananaitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.banana> * 100, null ,<extratrees:food:28>);
+
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cherry> * 50, null ,<extratrees:food:4>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cherry> * 50, null ,<extratrees:food:5>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cherry> * 50, null ,<extratrees:food:6>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cherry> * 50, null ,<forestry:fruits>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cherry> * 50, null ,<harvestcraft:cherryitem>);
+
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.elderberry> * 100, null ,<extratrees:food:34>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lemon> * 100, null ,<harvestcraft:lemonitem>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lemon> * 100, null ,<forestry:fruits:3>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lime> * 100, null ,<harvestcraft:limeitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lime> * 100, null ,<extratrees:food:17>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lime> * 100, null ,<extratrees:food:16>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.lime> * 100, null ,<extratrees:food:3>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.orange> * 100, null ,<harvestcraft:orangeitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.orange> * 100, null ,<extratrees:food:13>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.orange> * 100, null ,<extratrees:food:21>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.orange> * 100, null ,<extratrees:food:1>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.orange> * 100, null ,<extratrees:food:18>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.peach> * 100, null ,<harvestcraft:peachitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.peach> * 100, null ,<extratrees:food:19>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.peach> * 100, null ,<extratrees:food:12>);
+
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<extratrees:food:8>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<forestry:fruits:4>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<harvestcraft:plumitem>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<minecraft:carrot>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.tomato> * 100, null ,<harvestcraft:tomatoitem>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cranberry> * 50, null ,<harvestcraft:cranberryitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.cranberry> * 50, null ,<extratrees:food:46>);
+
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.grapefruit> * 100, null ,<extratrees:food:11>);
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.grapefruit> * 100, null ,<harvestcraft:grapefruititem>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.pineapple> * 100, null ,<harvestcraft:pineappleitem>);
+
+mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<harvestcraft:pearitem>);
+#mods.rustic.CrushingTub.addRecipe(<liquid:binnie.juice.plum> * 100, null ,<extratrees:food:22>);
