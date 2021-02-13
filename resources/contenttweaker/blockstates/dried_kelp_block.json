@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "contenttweaker:blocks/dried_kelp_block_top",
+      "side": "contenttweaker:blocks/dried_kelp_block_side",
+      "bottom": "contenttweaker:blocks/dried_kelp_block_bottom",
+      "particle": "contenttweaker:blocks/dried_kelp_block_side"
+    },
+    "model": "cube_bottom_top",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
