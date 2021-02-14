@@ -52,6 +52,21 @@ recipes.remove(<libvulpes:productrod:1>);
 recipes.remove(<advancedrocketry:productrod:1>);
 recipes.remove(<advancedrocketry:productrod:0>);
 
+#Alchemistry Machines
+recipes.remove(<alchemistry:fission_controller>);
+recipes.remove(<alchemistry:fission_core>);
+recipes.remove(<alchemistry:fission_casing>);
+recipes.remove(<alchemistry:evaporator>);
+recipes.remove(<alchemistry:chemical_combiner>);
+recipes.remove(<alchemistry:chemical_dissolver>);
+recipes.remove(<alchemistry:electrolyzer>);
+recipes.remove(<alchemistry:atomizer>);
+recipes.remove(<alchemistry:liquifier>);
+recipes.remove(<alchemistry:fusion_core>);
+recipes.remove(<alchemistry:fusion_controller>);
+recipes.remove(<alchemistry:fusion_casing>);
+recipes.remove(<alchemistry:milk>);
+
 #Ore & Ingot
 recipes.remove(<better_diving:titanium_ingot>);
 
@@ -136,6 +151,9 @@ recipes.addShaped(<alchemistry:fission_casing>,[[<ore:ingotTungsten>,<ore:ingotT
 recipes.addShaped(<alchemistry:fusion_controller>,[[<ore:ingotSteel>,<alchemistry:fusion_casing>,<ore:ingotSteel>],[<ore:blockGlass>,<minecraft:ender_eye>,<ore:ingotPlatinum>],[<ore:ingotSteel>,<alchemistry:fusion_casing>,<ore:ingotSteel>]]);
 recipes.addShaped(<alchemistry:fission_controller>,[[<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>],[<ore:blockGlass>,<minecraft:ender_eye>,<ore:ingotPlatinum>],[<ore:ingotSteel>,<alchemistry:fission_casing>,<ore:ingotSteel>]]);
 recipes.addShaped(<alchemistry:fission_core>,[[<ore:ingotPlatinum>,<ore:ingotYellorium>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<ore:ingotYellorium>,<ore:ingotPlatinum>],[<ore:ingotPlatinum>,<ore:ingotYellorium>,<ore:ingotPlatinum>]]);
+recipes.addShaped(<alchemistry:electrolyzer>,[[<ore:stickSteel>,<immersiveengineering:metal_device0>,<ore:stickSteel>],[<ore:stickSteel>,null,<ore:stickSteel>],[<ore:blockSheetmetalIron>,<immersiveengineering:metal_device0:4>,<ore:blockSheetmetalIron>]]);
+recipes.addShaped(<alchemistry:liquifier>,[[<ore:stickSteel>,<immersiveengineering:metal_device0>,<ore:stickSteel>],[<ore:stickSteel>,<minecraft:bucket>,<ore:stickSteel>],[<ore:blockSheetmetalIron>,<immersiveengineering:metal_device0:4>,<ore:blockSheetmetalIron>]]);
+recipes.addShaped(<alchemistry:atomizer>,[[<ore:stickSteel>,<immersiveengineering:metal_device0>,<ore:stickSteel>],[<ore:stickSteel>,<ore:ingotYellorium>,<ore:stickSteel>],[<ore:blockSheetmetalIron>,<immersiveengineering:metal_device0:4>,<ore:blockSheetmetalIron>]]);
 
 #Ore & Ingot
 recipes.remove(<better_diving:titanium_ingot>);
@@ -159,6 +177,16 @@ recipes.addShaped(<immersive_energy:stick_uranium>*2,[[<immersiveengineering:met
 recipes.addShaped(<immersive_energy:stick_uranium>*2,[[<immersiveengineering:metal:5>],[<immersiveengineering:metal:5>]]);
 recipes.addShaped(<bigreactors:reactorcasing>*4,[[<ore:ingotTungsten>,<ore:ingotGraphite>,<ore:ingotTungsten>],[<ore:ingotGraphite>,<bigreactors:reactorcasingcores>,<ore:ingotGraphite>],[<ore:ingotTungsten>,<ore:ingotGraphite>,<ore:ingotTungsten>]]);
 recipes.addShaped(<bigreactors:reactorcasing>*4,[[<ore:ingotTitanium>,<ore:ingotGraphite>,<ore:ingotTitanium>],[<ore:ingotGraphite>,<bigreactors:reactorcasingcores>,<ore:ingotGraphite>],[<ore:ingotTitanium>,<ore:ingotGraphite>,<ore:ingotTitanium>]]);
-recipes.addShaped(<bigreactors:reactorcasingcores>,[[<immersiveengineering:material:2>,<ore:ingotGraphite>,<immersiveengineering:material:2>],[<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>],[<immersiveengineering:material:2>,<ore:ingotGraphite>,<immersiveengineering:material:2>]]);
+recipes.addShaped(<bigreactors:reactorcasingcores>,[[<ore:stickSteel>,<ore:ingotGraphite>,<ore:stickSteel>],[<minecraft:gold_ingot>,<minecraft:redstone>,<minecraft:gold_ingot>],[<ore:stickSteel>,<ore:ingotGraphite>,<ore:stickSteel>]]);
 recipes.addShapeless(<bigreactors:blockgraphite>,[<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>,<immersiveengineering:material:19>]);
 recipes.addShapeless(<immersiveengineering:material:19>*9,[<bigreactors:blockgraphite>]);
+
+#Crates
+recipes.addShapeless(<immersiveengineering:wooden_device0>,[<immersiveintelligence:small_crate:2>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:1>,[<immersiveengineering:wooden_device0>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:0>,[<immersiveintelligence:small_crate:1>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:2>,[<immersiveintelligence:small_crate:0>]);
+recipes.addShapeless(<immersiveintelligence:metal_device>,[<immersiveintelligence:small_crate:5>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:4>,[<immersiveintelligence:metal_device>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:3>,[<immersiveintelligence:small_crate:4>]);
+recipes.addShapeless(<immersiveintelligence:small_crate:5>,[<immersiveintelligence:small_crate:3>]);
