@@ -190,3 +190,10 @@ recipes.addShapeless(<immersiveintelligence:metal_device>,[<immersiveintelligenc
 recipes.addShapeless(<immersiveintelligence:small_crate:4>,[<immersiveintelligence:metal_device>]);
 recipes.addShapeless(<immersiveintelligence:small_crate:3>,[<immersiveintelligence:small_crate:4>]);
 recipes.addShapeless(<immersiveintelligence:small_crate:5>,[<immersiveintelligence:small_crate:3>]);
+
+#Carts
+recipes.addShaped(<immersiveintelligence:minecart:0>,[[<minecraft:minecart>],[<immersiveengineering:wooden_device0>]]);
+recipes.addShaped(<immersiveintelligence:minecart:1>,[[<minecraft:minecart>],[<immersiveengineering:wooden_device0:5>]]);
+recipes.addShaped(<immersiveintelligence:minecart:2>,[[<minecraft:minecart>],[<immersiveintelligence:metal_device>]]);
+recipes.addShaped(<immersiveintelligence:minecart:3>,[[<minecraft:minecart>],[<immersiveengineering:wooden_device0:1>]]);
+recipes.addShaped(<immersiveintelligence:minecart:4>,[[<minecraft:minecart>],[<immersiveengineering:metal_device0:4>]]);

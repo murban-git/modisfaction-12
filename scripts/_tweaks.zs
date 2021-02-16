@@ -6,3 +6,4 @@ import mods.foodtweaker.Tweaker;
 
 #Food
 Tweaker.changeFoodStats(<rustic:grapes>, FoodInfo(<rustic:grapes>).setHeal(1));
+Tweaker.changeFoodStats(<rustic:wildberries>, FoodInfo(<rustic:wildberries>).setHeal(1));

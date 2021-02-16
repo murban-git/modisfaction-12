@@ -89,6 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:33:SHIFT
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48:ALT
+key_quark.keybind.playerSort:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -107,7 +108,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.playerSort:0
 key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_keybind.railcraft.cart.bed:208
@@ -146,6 +146,14 @@ key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.astikorcarts.desc:19
 key_Seamoth descend:0
+key_key.settings_menu:34
+key_key.range:25
+key_key.undo:22
+key_key.anchor:35
+key_key.fuzzy:0
+key_key.connected_area:0
+key_key.rotate_mirror:0
+key_key.material_list:50
 key_mod.chiselsandbits.chiselmode.single:0
 key_mod.chiselsandbits.chiselmode.snap2:0
 key_mod.chiselsandbits.chiselmode.snap4:0
